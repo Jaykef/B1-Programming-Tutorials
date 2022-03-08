@@ -1,0 +1,35 @@
+body{
+    background: white;
+  }
+  .container{
+    max-width: 500px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: rgb(0, 0, 0);
+    border: none;
+    background: rgba(255, 255, 255, 0.9);
+    max-width: 500px;
+    padding-left: 19px;
+  }
+  .todos li{
+    background: rgba(255, 255, 255, 0.7);
+    color: rgb(0, 0, 0);
+    font-weight: 450;
+  }
+  .search-icon {
+    position: absolute;
+    padding-top:12px;
+  }
+  input[type='placeholder']{
+    margin-left: 15px;
+  }
+  .add::placeholder {
+    color: green;
+  }
+  .delete{
+    cursor: pointer;
+  }
+  .filtered {
+    display: none !important;
+  }
