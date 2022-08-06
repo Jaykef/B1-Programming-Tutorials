@@ -2,8 +2,6 @@
 This repo contains source codes and slides for a programming tutorial session I weekly hold in my school (Beijing Institute of Technology)
 
 
-<img src="grp.png">
-
 <img src="1.png">
 
 <img src="2.png">
