@@ -2,4 +2,10 @@
 This repo contains source codes and slides for a programming tutorial session I weekly hold in my school (Beijing Institute of Technology)
 
 
-![My Stack](https://github.com/Jaykef/Jaykef/blob/main/jay.png)
+<img src="1.png">
+
+<img src="2.png">
+
+<img src="3.png">
+
+<img src="4.png">
