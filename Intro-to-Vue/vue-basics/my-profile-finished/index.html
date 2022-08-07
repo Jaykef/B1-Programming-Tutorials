@@ -22,7 +22,9 @@
             <button class="button">Followers: {{ followers }}</button>
             <button class="button">Following: {{ following }}</button>
             <p>{{ bio }}</p>
-
+            
+            <button v-if="isFollowing" class="button">Following</button>
+            <button class="button" v-else>Follow</button>
             <h3>Hobbies</h3>
             <ul>
               <li v-for="hobbie in hobbies">{{ hobbie }}</li>
