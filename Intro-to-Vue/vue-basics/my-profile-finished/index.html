@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Intro to Vue</title>
+    <!-- Import Styles -->
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <!-- Import Vue.js -->
+    <script src="https://unpkg.com/vue@3"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="profile-display">
+        <div class="profile-container">
+          <div class="profile-image">
+            <!-- Profile Image goes here -->
+            <img v-bind:src="image" alt="my profile image">
+          </div>
+          <div class="profile-info">
+            <h1>{{ name }}</h1>
+            <button class="button">Posts: {{ posts }} </button>
+            <button class="button">Followers: {{ followers }}</button>
+            <button class="button">Following: {{ following }}</button>
+            <p>{{ bio }}</p>
+
+            <h3>Hobbies</h3>
+            <ul>
+              <li v-for="hobbie in hobbies">{{ hobbie }}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Import app -->
+    <script src="./main.js"></script>
+    <!-- Mount app -->
+    <script>
+      const mountedApp = app.mount('#app')
+    </script>
+  </body>
+</html>
