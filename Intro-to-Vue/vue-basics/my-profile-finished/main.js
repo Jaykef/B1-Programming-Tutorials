@@ -7,7 +7,8 @@ const app = Vue.createApp({
             posts: '164',
             followers: '1,105',
             following: '285',
-            hobbies: ['Coding', 'Movies', 'Reading', 'Travelling']
+            hobbies: ['Coding', 'Movies', 'Reading', 'Travelling'],
+            isFollowing: true
         }
     }
 })
