@@ -8,7 +8,7 @@ body {
 .button {
   margin-right: 30px;
   background-color: #39495c;
-  border-radius: 5px;
+  border-radius: 1rem;
   font-size: 18px;
   width: 180px;
   max-height: 75px;
