@@ -1,5 +1,5 @@
 body {
-  background-color: #000000;
+  background-color: #f1f1f1;
   margin: 0px;
   font-family: tahoma;
   color: #282828;
@@ -7,16 +7,13 @@ body {
 
 .button {
   margin-right: 30px;
-  background-color: #39495c;
+  background-color: #010101;
   border-radius: 1rem;
   font-size: 18px;
   width: 180px;
   max-height: 75px;
   color: white;
   padding: 15px;
-  box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
-    inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
-    inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -25,12 +22,11 @@ body {
 
 .follow-status {
   margin-right: 30px;
-  background-color: #5bb977;
   border-radius: 1rem;
   font-size: 18px;
   width: 120px;
-  max-height: 75px;
-  color: white;
+  max-height: 65px;
+  color: rgb(0, 0, 0);
   padding: 18px;
   text-align: center;
   justify-content: center;
@@ -137,6 +133,7 @@ p {
 .post-form {
   display: flex;
   flex-direction: column;
+  border-radius: 1rem;
   width: 90%;
   padding: 20px;
   border: 2px solid #d8d8d8;
@@ -179,6 +176,7 @@ textarea {
   padding: 10px;
   font-size: 20px;
   margin-bottom: 20px;
+  border-radius: 1rem;
 }
 
 ul {
